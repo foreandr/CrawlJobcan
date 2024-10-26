@@ -71,7 +71,7 @@ def job_search_url(keyword):
     driver = hyperSel.selenium_utilities.open_site_selenium(url, show_browser=True)
 
     total_num_results = get_total_num_results_from_job_bank_search(driver)
-    posts_per_page = 25
+    posts_per_page = 25e
     print("total_num_results", total_num_results)
 
     iterations = int(round((total_num_results / posts_per_page) , 0))
