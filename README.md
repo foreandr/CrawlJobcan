@@ -7,7 +7,7 @@
 
 1. Download `requirements.txt`:
    ```bash
-   pip install -r requirements.txt
+   pip install -r req.txt
    ```
 
 ## Usage
